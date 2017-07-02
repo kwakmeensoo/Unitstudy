@@ -1,7 +1,7 @@
 #include <cstdio>
 #define INF 987654321 // 무한대 값 정의
 int min(int x, int y) { return x < y ? x : y; }
-int D[10010], A[101], N, K; // D[i] = i원을 N가지의 종류의 동전으로 만들 때 최소 갯수
+int D[100010], A[101], N, K; // D[i] = i원을 N가지의 종류의 동전으로 만들 때 최소 갯수
 int main() {
     scanf("%d %d", &N, &K);
     for(int i = 1; i <= N; ++i) scanf("%d", &A[i]);
